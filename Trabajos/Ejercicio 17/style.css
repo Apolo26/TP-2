@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+
+.container {
+  border: 1px;
+}
+
+.profe-cristina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profe-gabriel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.profe-juanjo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.comment-section {
+  display: flex;
+  margin-top: 20px;
+}
+.user-avatar {
+  margin-right: 10px;
+}
+.user-avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.comment-details {
+  display: flex;
+  flex-direction: column;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.user-info h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.user-info p {
+  color: #888;
+  font-size: 14px;
+}
+.comment-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+.comment-actions {
+  display: flex;
+}
+.like-btn,
+.dislike-btn {
+  color: #666;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.like-btn i,
+.dislike-btn i {
+  margin-right: 5px;
+}
+
+.like-btn :hover {
+  color: #3ea6ff;
+}
+
+.dislike-btn:hover {
+  color: #3ea6ff;
+}
+
+.btn-responder {
+  font-weight: 500;
+  padding: 3px;
+  cursor: pointer;
+  color: #888;
+}
+
+.btn-ver-respuestas {
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 80px;
+}
+
+.btn-ver-respuestas .btn-text {
+  size: 14px;
+  line-height: 36px;
+  margin-right: 15px;
+  color: #666;
+  font-weight: 500;
+  margin: 0px 15px 0px 0px;
+}
+
+.btn-ver-respuestas i {
+  font-size: 15px;
+  margin-right: 30px;
+  color: #666;
+}

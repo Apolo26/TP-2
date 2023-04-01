@@ -1,0 +1,23 @@
+
+/*
+El selector con mayor prioridad es el identificador (#), seguido por la clase (.) y luego por el selector de elemento. 
+Si un elemento tiene múltiples selectores que aplican estilos diferentes a él, el estilo que tiene mayor prioridad será 
+el que se aplique.
+*/
+
+body {
+  font-size: 50px;
+}
+
+div {
+  color: red;
+}
+
+.miClase {
+  color: green;
+}
+
+#miDiv {
+  color: blue;
+}
+

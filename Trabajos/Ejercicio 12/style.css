@@ -1,0 +1,17 @@
+#3img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenes img {
+  width: 33.33%;
+  height: auto;
+  object-fit: contain;
+}

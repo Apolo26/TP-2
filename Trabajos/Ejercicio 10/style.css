@@ -1,0 +1,17 @@
+.primera-letra {
+  font-size: 2em;
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.resto-parrado {
+  font-size: 1em;
+  color: #000000;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.parrafo {
+  margin-bottom: 1em;
+}
